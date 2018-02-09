@@ -28,5 +28,21 @@ A simple web app applying the fundamentals of ASP.Net
 * [Others](#)
   * [Redirecting to other page](#)
   
+## Validation control
+Using validation control allows you to validate associate input control and create a custom error message for an invalid user input.
+It is one of the important functions in Asp.Net especially for validating TextBox controls
 
+```html
+<h2>Example of code</h2>
 
+<pre>
+    <div class="container">
+        <div class="block two first">
+            <h2>Your title</h2>
+            <div class="wrap">
+            //Your content
+            </div>
+        </div>
+    </div>
+</pre>
+```
