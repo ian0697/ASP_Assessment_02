@@ -28,11 +28,11 @@ A simple web app applying the fundamentals of ASP.Net
 * [Others](#)
   * [Redirecting to other page](#)
   
-## Validation control
+# Validation control
 Using validation control allows you to validate associate input control and create a custom error message for an invalid user input.
 It is one of the important functions in Asp.Net especially for validating TextBox controls
 
-### RequiredFieldValidator
+## RequiredFieldValidator
 This validation control allows you to check whether a user has typed something in an input control such as a TextBox.
 
 For example, in Registration.aspx, this validator was applied to the TextBox named TbFirstName. The RequiredFieldValidator was positioned below the asp:TextBox tag. This means that if the user doesn't type anything in the TextBox, the RequiredFieldValidator will trigger the page as an **Invalid**
